@@ -9,7 +9,7 @@ int main(){
     printf("Input second number :- ");
     scanf("%f",&input2);
 
-    sum = input1*input2;
+    sum = input1+input2;
     printf("Sum = %f\n", sum);
     return 0;
 }
