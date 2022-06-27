@@ -8,7 +8,7 @@ int main(){
         printf("Entered value is not a valid year\n");
     }
     else{
-        if((year%4==0) || (year%400==0) && (year%100!=0)){
+        if(((year%4==0) && (year%100!=0)) || (year%400==0)){
             printf("%d is a leap year\n",year);
         }
         else{
